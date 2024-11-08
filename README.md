@@ -18,6 +18,8 @@ It contains AWS cli comments to list ec2,s3,lambda functions,Iam users.
   vim aws-resource-tracker.sh
   <copy and paste theattached code>
   save the file :wq!
+  chmod 777 aws-resource-tracker.sh (to give permissios for file)
+  sudo apt install jq -y (to install jq, if it is not in linux machine)
   ./aws-resource-tracker.sh(to execute the file)
 4.Now you can view how many aws resources you have in your aws account in the terminal.
 
